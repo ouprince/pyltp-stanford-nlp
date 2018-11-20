@@ -6,6 +6,12 @@
 	jdk 1.8+ 主要是调用 stanford-nlp 需要
 	python 2.7
 	
+## 安装
+	pyltp 在linux 系统很好安装，直接 pip install pyltp
+	pyltp 在win 上安装比较麻烦，可在我的文件夹 "pyltp 免vs 编译版" 中下载 vs 编译好的 whl 文件，可不用安装 vs 2015
+	在 win 直接 pip install xxx.whl 即可
+	至于 stanford-nlp 只需要安装好 jdk 即可
+	
 ## 主要介绍
 	本模块主要是为了提供哈工大的语言技术平台 pyltp 以及斯坦福大学的 stanford-NLP python 调用模块
 
